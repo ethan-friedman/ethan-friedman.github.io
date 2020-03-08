@@ -1,1 +1,36 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Kildare Family Schedule</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body class="App">
+        <header class="App-header">
+            <h1>Kildare Family Schedule</h1>
+        </header>
+        <main>
+            <div id="month-head">
+                <h2 id="year-name"></h2>
+                <h3 style="display: inline;" id="prev">< Prev</h3>
+                <h3 id="mo-name" style="display: inline;"></h3>
+                <h3 style="display: inline;" id="next">Next ></h3>
+            </div>
+            <div id="calendar"></div>
+            <div id="legend">
+                <div id="friedman-legend">
+                    <div class="color-block"></div>
+                    <div>Friedman</div>
+                </div>
+                <div id="treisman-asiel-legend">
+                    <div class="color-block"></div>
+                    <div>Treisman-Asiel</div>
+                </div>
+            </div>
+            <div id="copyright">Copyright © 2020 Ethan Friedman<div>
+        </main>
+        <script type="application/javascript" src="./Calendar.js"></script>
+        <script src="Algorithm.js" type="application/javascript" charset="utf-8"></script>
+        <script src="Display.js" type="application/javascript" charset="utf-8"></script>
+    </body>
+</html>
