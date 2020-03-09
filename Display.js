@@ -113,8 +113,8 @@ const buildCal = () => {
     const mo = getMonth(monthDisplay.innerText, thisYear);
     const calMonth = [...generateWeekdays()];
     removeCalendar();
-
-    const thisMonth = mo[1].start.getMonth();
+    const idx = mo.length > 1 ? 1 : 0;
+    const thisMonth = mo[idx].start.getMonth();
     const firstDayOfThisMonth = new Date(thisYear, thisMonth, 1);
 
     let iter = new Date(firstDayOfThisMonth);
