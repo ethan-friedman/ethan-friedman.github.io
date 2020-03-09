@@ -37,7 +37,7 @@
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
-#friedman-legend, #treisman-asiel-legend, .color-block {
+#friedman-legend, #treisman-asiel-legend, .color-block, .color-block + div {
     display: inline-block;
 }
 
